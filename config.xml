@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/TizenOne" version="1.0.0" viewmodes="maximized">
+    <access origin="http://tomcat-alysforever.rhcloud.com" subdomains="true"/>
+    <tizen:allow-navigation>*</tizen:allow-navigation>
+    <tizen:application id="RjmzOZ66gn.TizenOne" package="RjmzOZ66gn" required_version="2.2"/>
+    <author href="https://github.com/wcecil" email="wilcecil@gmail.com">William Cecil</author>
+    <content src="index.html"/>
+    <tizen:content-security-policy>script-src 'self'</tizen:content-security-policy>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://developer.samsung.com/tizen/feature/heart_rate_monitor"/>
+    <feature name="http://tizen.org/feature/network.internet"/>
+    <icon src="464396.png" height="420" width="420"/>
+    <name>TizenOne</name>
+    <tizen:privilege name="http://developer.samsung.com/privilege/healthinfo"/>
+    <tizen:privilege name="http://developer.samsung.com/privilege/medicalinfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+</widget>
