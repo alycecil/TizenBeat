@@ -10,3 +10,4 @@
 /.settings
 .rds_delta
 .sdk_delta.info
+**.wgt
